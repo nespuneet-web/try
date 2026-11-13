@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AddUp</string>
+    <string name="first_number_label">First number</string>
+    <string name="second_number_label">Second number</string>
+    <string name="note_label">Note (optional)</string>
+    <string name="note_placeholder">e.g. Groceries, Split bill</string>
+    <string name="add_and_save">Add &amp; Save</string>
+    <string name="clear_inputs">Clear</string>
+    <string name="swap_numbers_desc">Swap first and second numbers</string>
+    <string name="clear_field_desc">Clear input</string>
+    <string name="clear_all_desc">Clear all saved calculations</string>
+    <string name="clear_all_dialog_title">Clear all saved calculations?</string>
+    <string name="clear_all_dialog_message">This removes every saved addition from the device database.</string>
+    <string name="clear_all_confirm">Clear all</string>
+    <string name="result_label">Total</string>
+    <string name="live_preview_label">Live preview</string>
+    <string name="saved_to_db_badge">Saved to database</string>
+    <string name="history_section_title">Saved Calculations</string>
+    <string name="entries_count_format">%1$d saved</string>
+    <string name="cumulative_sum_format">Total sum: %1$s</string>
+    <string name="empty_history_title">No saved calculations yet</string>
+    <string name="empty_history_subtitle">Enter two numbers above and tap Add &amp; Save to store your calculation in the database.</string>
+    <string name="delete_entry_desc">Delete calculation</string>
+    <string name="edit_note_desc">Edit note</string>
+    <string name="load_into_calculator_hint">Tap to load into calculator</string>
+    <string name="error_enter_valid_first">Enter a valid first number</string>
+    <string name="error_enter_valid_second">Enter a valid second number</string>
+    <string name="edit_note_dialog_title">Update calculation note</string>
+    <string name="save_action">Save</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="hero_illustration_desc">Translucent floating number blocks and plus symbol illustration</string>
+</resources>

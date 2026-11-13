@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "AdditionEntry": {
+      "title": "AdditionEntry",
+      "description": "A saved two-number addition calculation owned by an authenticated user.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth UID of the owner."
+        },
+        "firstNumber": {
+          "type": "number",
+          "description": "First operand entered by the user."
+        },
+        "secondNumber": {
+          "type": "number",
+          "description": "Second operand entered by the user."
+        },
+        "total": {
+          "type": "number",
+          "description": "Computed sum of firstNumber and secondNumber."
+        },
+        "note": {
+          "type": "string",
+          "description": "Optional short label for the calculation (max 80 characters)."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when created via FieldValue.serverTimestamp()."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when updated via FieldValue.serverTimestamp()."
+        }
+      },
+      "required": [
+        "userId",
+        "firstNumber",
+        "secondNumber",
+        "total",
+        "note",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/additions/{additionId}": {
+      "schema": {
+        "$ref": "#/entities/AdditionEntry"
+      },
+      "description": "User-scoped collection of saved two-number addition calculations."
+    }
+  }
+}

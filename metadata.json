@@ -1,0 +1,6 @@
+{
+  "name": "AddUp",
+  "description": "A simple two-number addition calculator with no login required and local Room database storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
